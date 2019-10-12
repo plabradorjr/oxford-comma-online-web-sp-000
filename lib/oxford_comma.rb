@@ -8,6 +8,6 @@ def oxford_comma(array)
     last_array = new_array.last
     new_last_array = "and #{last_array}"
     new_array.pop
-    new_array << new_last_array
+    return new_array << new_last_array
   end
 end
